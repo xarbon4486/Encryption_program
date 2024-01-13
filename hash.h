@@ -226,7 +226,7 @@ void remo()
 {
 
     //for val == 0
-    if (key[0] == 'U' && key[1] == 'H')               //only this condition is working properly😃
+    if (key[0] == 'U' && key[1] == 'H')               
     {
         if (pass[0] == 'y')
         {
@@ -245,7 +245,7 @@ void remo()
         }
     }
     //FOR val == 1
-    if (key[0] == 'P' && key[1] == 'I')                  //not giving proper output😃
+    if (key[0] == 'P' && key[1] == 'I')                  
     {
         if (pass[0] == 'a')
         {
@@ -264,7 +264,7 @@ void remo()
         }
     }
     //FOR val == 2
-    if (key[0] == 'J' && key[1] == 'W')             //not giving proper output😃
+    if (key[0] == 'J' && key[1] == 'W')            
     {
         if (pass[0] == 'x')
         {
