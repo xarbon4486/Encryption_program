@@ -217,7 +217,7 @@ if(key[0]=='U' && key[1]=='H' || key[0]=='P' && key[1]== 'I' || key[0]=='J' && k
 
 else
 {
-  cout<<"enter a valid encryption key";
+  cout<<"enter a valid encryption key"<<endl;
   system("pause");
 }
 
