@@ -23,8 +23,7 @@ class encryptor
    int randvalue=randgen();
  public:
  void menu()
- { 
-    title();
+ {  title();
     cout<<"Please Enter a command"<<endl;
     cout<<"-e for encryption"<<endl;
     cout<<"-d for decryption"<<endl;
@@ -161,12 +160,13 @@ void setddata()
 }
 void getkey()
 {
+  //for furina
   if(pass[0]=='y')
   {
     var=stoi(pass.substr(1,1));
     key[0]=pass[var+2];
     key[1]=pass[pass.size()-1];
-    //cout<<key[0]<<key[1];
+    cout<<key[0]<<key[1];
   }
 
   if(pass[0]=='g')
@@ -174,39 +174,39 @@ void getkey()
     var=stoi(pass.substr(1,2));
     key[0]=pass[var+3];
     key[1]=pass[pass.size()-1];
-    //cout<<key[0]<<key[1];
+    cout<<key[0]<<key[1];
   }
-
+// for arthur
   if(pass[0]=='a')
   {
     var=stoi(pass.substr(1,1));
     key[0]=pass[var+2];
     key[1]=pass[pass.size()-1];
-    //cout<<key[0]<<key[1];
+    cout<<key[0]<<key[1];
   }
 
   if(pass[0]=='v')
   {
     var=stoi(pass.substr(1,2));
-    key[0]=pass[var+3];
+    key[0]=pass[var+4];
     key[1]=pass[pass.size()-1];
-    //cout<<key[0]<<key[1];
+    cout<<key[0]<<key[1];
   }
-
+// for gordon
   if(pass[0]=='x')
   {
     var=stoi(pass.substr(1,1));
     key[0]=pass[var+2];
     key[1]=pass[pass.size()-1];
-    //cout<<key[0]<<key[1];
+    cout<<key[0]<<key[1];
   }
 
   if(pass[0]=='e')
   {
     var=stoi(pass.substr(1,2));
-    key[0]=pass[var+3];
+    key[0]=pass[var+4];
     key[1]=pass[pass.size()-1];
-    //cout<<key[0]<<key[1];
+    cout<<key[0]<<key[1];
   }
 
 
@@ -224,9 +224,8 @@ else
 }
 void remo()
 {
-
     //for val == 0
-    if (key[0] == 'U' && key[1] == 'H')               
+    if (key[0] == 'U' && key[1] == 'H')               //only this condition is working properly
     {
         if (pass[0] == 'y')
         {
@@ -245,7 +244,7 @@ void remo()
         }
     }
     //FOR val == 1
-    if (key[0] == 'P' && key[1] == 'I')                  
+    if (key[0] == 'P' && key[1] == 'I')                  //not giving proper output
     {
         if (pass[0] == 'a')
         {
@@ -264,7 +263,7 @@ void remo()
         }
     }
     //FOR val == 2
-    if (key[0] == 'J' && key[1] == 'W')            
+    if (key[0] == 'J' && key[1] == 'W')             //not giving proper output
     {
         if (pass[0] == 'x')
         {
