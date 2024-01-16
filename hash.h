@@ -166,7 +166,7 @@ void getkey()
     var=stoi(pass.substr(1,1));
     key[0]=pass[var+2];
     key[1]=pass[pass.size()-1];
-    cout<<key[0]<<key[1];
+    //cout<<key[0]<<key[1];
   }
 
   if(pass[0]=='g')
@@ -174,15 +174,15 @@ void getkey()
     var=stoi(pass.substr(1,2));
     key[0]=pass[var+3];
     key[1]=pass[pass.size()-1];
-    cout<<key[0]<<key[1];
+    //cout<<key[0]<<key[1];
   }
 // for arthur
   if(pass[0]=='a')
   {
     var=stoi(pass.substr(1,1));
-    key[0]=pass[var+2];
+    key[0]=pass[var+1];
     key[1]=pass[pass.size()-1];
-    cout<<key[0]<<key[1];
+    //cout<<key[0]<<key[1];
   }
 
   if(pass[0]=='v')
@@ -190,15 +190,15 @@ void getkey()
     var=stoi(pass.substr(1,2));
     key[0]=pass[var+4];
     key[1]=pass[pass.size()-1];
-    cout<<key[0]<<key[1];
+    //cout<<key[0]<<key[1];
   }
 // for gordon
   if(pass[0]=='x')
   {
     var=stoi(pass.substr(1,1));
-    key[0]=pass[var+2];
+    key[0]=pass[var+1];
     key[1]=pass[pass.size()-1];
-    cout<<key[0]<<key[1];
+    //cout<<key[0]<<key[1];
   }
 
   if(pass[0]=='e')
@@ -206,7 +206,7 @@ void getkey()
     var=stoi(pass.substr(1,2));
     key[0]=pass[var+4];
     key[1]=pass[pass.size()-1];
-    cout<<key[0]<<key[1];
+    //cout<<key[0]<<key[1];
   }
 
 
