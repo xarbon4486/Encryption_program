@@ -17,7 +17,7 @@ class encryptor
     uniform_int_distribution<int> dist(0, 2);
 
     randval = dist(gen);
-    return randval;
+    return randval=0;
    }
 
    int randvalue=randgen();
