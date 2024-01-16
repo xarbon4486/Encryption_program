@@ -39,6 +39,7 @@ class encryptor
 else if(comnd!='e'||comnd!='d')
      {
         cout<<"Enter a valid command"<<endl;
+        system("pause");
      }
  }
  void setedata()                                                     // getting data from user
